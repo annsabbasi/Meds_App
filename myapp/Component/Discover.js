@@ -122,6 +122,7 @@ export default function ({ navigation }) {
             <View>
                 <BottomBanner />
             </View>
+                                // Edited on 11/21/2023
         </>
     );
 }
