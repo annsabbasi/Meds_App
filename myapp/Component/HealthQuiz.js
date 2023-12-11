@@ -153,7 +153,7 @@ const HealthQuiz = ({ navigation }) => {
                                     placeholder='Where?'
                                     value={text}
                                     onChangeText={onChangeText}
-                                    selectionColor="red"/>
+                                    selectionColor="red" />
 
                             </View>
 

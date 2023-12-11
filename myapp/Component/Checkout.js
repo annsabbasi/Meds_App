@@ -53,6 +53,14 @@ export default function Checkout({ navigation }) {
       titleBtm: "in stock",
       price: "$99.99",
     },
+    {
+      id: 6,
+      close: require("../assets/images/close.png"),
+      img: require("../assets/images/doctor.jpg"),
+      titleTop: "Random item",
+      titleBtm: "out of the stock",
+      price: "$105.95",
+    },
   ];
 
   const handleButtonPress = () => {

@@ -3,18 +3,18 @@ import { StyleSheet, SafeAreaView, View, Image, TouchableOpacity } from 'react-n
 import { useNavigation } from '@react-navigation/native';
 
 const icons = [
-    {icon : require('../assets/images/homeIcn.png'), screen: 'Product'},
-    {icon : require('../assets/images/yogaIcn.png'), screen: 'Meditation' },
-    {icon : require('../assets/images/likeIcn.png'), screen: 'Discover'},
-    {icon : require('../assets/images/calendarIcn.png'), screen: 'Schedule'},
-    {icon : require('../assets/images/userIcn.png'), screen: 'HealthData'},
+    { icon: require('../assets/images/homeIcn.png'), screen: 'Product' },
+    { icon: require('../assets/images/yogaIcn.png'), screen: 'Meditation' },
+    { icon: require('../assets/images/likeIcn.png'), screen: 'Discover' },
+    { icon: require('../assets/images/calendarIcn.png'), screen: 'Schedule' },
+    { icon: require('../assets/images/userIcn.png'), screen: 'HealthData' },
 ];
 
 
 
 const BottomBanner = () => {
     const navigation = useNavigation();
-    const handleNavigate = (list) =>{
+    const handleNavigate = (list) => {
         navigation.navigate(list)
     }
 
